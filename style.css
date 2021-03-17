@@ -9,7 +9,9 @@
 
 section {
   padding-top: 5rem;
+  background-color: rgb(50, 4, 255);
 }
+
 
 .card {
   border-radius: 15px;

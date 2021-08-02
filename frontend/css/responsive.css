@@ -1,0 +1,75 @@
+/* Latop Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* LG  Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-btn a {
+        margin-left: 9px;
+    }
+    .main-menu ul li {
+        margin: 0 9px;
+    }
+    
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+   .header-btn {
+        display: none;
+    }
+    .single-blog{
+        margin-bottom: 30px;
+    }
+    .portfolio-category ul li {
+        margin-bottom: 11px;
+    }
+}
+
+
+/* small mobile (XS) :320px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+   .header-btn {
+        display: none;
+    }
+    .single-blog{
+        margin-bottom: 30px;
+    }
+    .portfolio-category ul li {
+        margin-bottom: 11px;
+    }
+    
+}
+
+
+/* SM Device :480px. */
+@media (min-width: 361px) and (max-width: 575px) {
+   .header-btn {
+        display: none;
+    }
+    .single-blog{
+        margin-bottom: 30px;
+    }
+    .portfolio-category ul li {
+        margin-bottom: 11px;
+    }
+    .hero-loading-content h1 {
+        font-size: 40px;
+    }
+}
+
+/* SM Device :480px. */
+@media (max-width: 360px) {
+   .header-btn {
+        display: none;
+    }
+    .single-blog{
+        margin-bottom: 30px;
+    }
+    .portfolio-category ul li {
+        margin-bottom: 11px;
+    }
+    .hero-loading-content h1 {
+        font-size: 30px;
+    }
+}
